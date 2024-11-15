@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "sqrt.h": "c",
+        "hs_math.h": "c",
+        "stdio.h": "c"
+    }
+}

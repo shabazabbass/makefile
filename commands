@@ -1,2 +1,1 @@
-gcc -I./inc src/*.c main.c -o arithmetic_operations
-
+gcc -Iprimary_school/public/inc  -Iprimary_school/private/inc -Ihigh_school/public/inc  -Ihigh_school/private/inc ./primary_school/public/src/*.c ./primary_school/private/src/*.c ./high_school/public/src/*.c  ./high_school/private/src/*.c main.c -o high_school_operations
