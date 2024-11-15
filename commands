@@ -1,0 +1,15 @@
+doxygen -g--------------------> create doxygen
+doxygen Doxyfile--------------> generate doxygen file
+gcc -i  <file name>-----------> create .i file
+gcc -S  <file name>-----------> create .so file
+gcc -c  <file name>-----------> create .o file
+<gcc command> -o file_name----> customise the output name
+
+gcc main.c add.c sub.c mul.c div.c -o arithmetic_operations
+gcc *.c -o arithmetic_operations
+
+gcc -c add.c sub.c mul.c div.c
+
+gcc main.c *.o -o arthmetic_operation
+
+
